@@ -125,6 +125,7 @@
     <Content Include="Paginas\Ejercisio2.aspx" />
     <Content Include="Paginas\Ejercisio3.aspx" />
     <Content Include="Paginas\Ejercisio4.aspx" />
+    <Content Include="Paginas\Ejercisio5.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -240,6 +241,13 @@
     </Compile>
     <Compile Include="Paginas\Ejercisio4.aspx.designer.cs">
       <DependentUpon>Ejercisio4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Ejercisio5.aspx.cs">
+      <DependentUpon>Ejercisio5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Ejercisio5.aspx.designer.cs">
+      <DependentUpon>Ejercisio5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
